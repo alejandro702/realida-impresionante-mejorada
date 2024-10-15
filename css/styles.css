@@ -1,0 +1,102 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;  /* Fondo negro */
+    color: #00BFFF;  /* Letras celestes */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;  /* Fondo del header */
+    color: #00BFFF;  /* Letras celestes */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right:auto ;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #FF4500;  /* Color del logo */
+}
+.logo img {
+    max-width: 100px;  /* Ajuste del tamaño del logo */
+    height: auto;
+}
+.main-logo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.main-logo img.main-image {
+    max-width: 100%;  /* Asegurar que la imagen ocupe el ancho completo del contenedor */
+    height: auto;
+    border: 30px solid #00BFFF; 
+} 
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;  /* Espaciado entre los elementos */
+}
+
+nav ul li {
+    padding: 5px 10px;  /* Relleno para los elementos */
+}
+
+nav ul li a {
+    color: #00BFFF;  /* Color de los enlaces */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;  /* Transiciones suaves */
+}
+
+nav ul li a:hover {
+    color: #FFD700;  /* Color en hover */
+    transform: scale(1.1);  /* Efecto en hover */
+}
+
+main {
+    padding: 20px;
+
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;  /* Fondo del footer */
+    color: #00BFFF;  /* Letras celestes */
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+.social-icons img {
+    width: 40px;
+    height: auto;
+}
